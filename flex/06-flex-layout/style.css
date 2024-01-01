@@ -11,6 +11,54 @@ img {
   width: 600px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.content {
+  align-self: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: blanchedalmond;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.buttons, .input {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -24,4 +72,5 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  align-items: center;
 }
